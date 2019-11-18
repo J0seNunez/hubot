@@ -212,3 +212,20 @@ Add the subdomain hubot should connect to. If you web URL looks like
 
 You may want to get comfortable with `heroku logs` and `heroku restart` if
 you're having issues.
+
+# Bot project development
+
+## Responses
+### Capital cities
+
+This bot will reply to "what is the capital of {country}" with the capital city of that country. {country} needs to be capitalized and no character should follow the name of the country. This means you can not finish the input with a question mark (?). The country should appear in the list of 201 countries loaded for the bot to be able to respond.
+
+### Electron configuration
+This bot will reply to "electron configuration for {element} with the name of the element, its symbol, its atomic number, and its electron configuration. {element} needs to be capitalized and no character should follow the name of the element. This means you can not finish the input with a question mark (?). The element should appear in the list of 109 named elements loaded for the bot to be able to respond.
+
+### DC and Marvel images
+This bot will reply with random images to "DC" and "marvel".
+
+##Unsolved problems
+### JSON sourcing
+The variables hard coded on 'script.js' should be sourced from JSON files.
